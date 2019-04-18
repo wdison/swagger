@@ -1,0 +1,51 @@
+Estrutura do trabalho:
+1 Introdução
+2 Problema
+3 Ferramenta que podem solucionar o problema
+4 Solução do problema
+OK 5 Conclusão
+
+
+
+*Solução do problema*
+
+A proposta desse projeto é melhorar apresentar com mais clareza a criação e desenvolvimento do projeto de API REST com documentação Swagger.
+Para isso será utilizado a linguagem de programação Java, a IDE NetBeans, mas poderia ser qualquer outra compatível com Java e Maven
+
+Até o momento esse trabalho já apresentou o problema e o que usar para sua solução.
+
+*CONCLUSÃO*
+
+Esse trabalho teve como inspiração o trabalho de SILVA, "CONSTRUÇÃO DE UM SERVIÇO WEB PARA PROMOVER A INTEGRAÇÃO DE
+FERRAMENTAS DE CRIATIVIDADE", que falava sobre serviços REST mas não aprofundava na documentação da API, portanto esse trabalho apresentou de forma clara e simplificada, como documentar API's REST e jundo de algumas especificações. No documento da API, são apresentados os detalhes de cada URI com seu respectivo método HTTP, parâmetros de entrada e retorno previsto, ficou concluído que os parâmetros e retornos podem ser opcionais de acordo com o requisito do método da URI, sendo assim eles podem não existir.
+
+A documentação foi criada de acordo com a especificação OpenAPI, que se encontra na versão 3.0.2, utilizando como implementação o Swagger, que se encontra na versão 2.0. 
+O trabalho falou que o Swagger é um grupo de ferramentas utilizado para documentar API's RESTfull e suas 3 principais ferramentas são Swagger Editor, Swagger UI e Swagger Codegen.
+Para ajudar no aprendizado e ajuda, existem os sites de apoio tais como stackoverflow, issues do repositório Swagger no GitHub, forum Swagger, dentre outros. 
+Não foi o foco desse trabalho apresentar a instalação das ferramentas Swagger, mas foi apresentado uma versão online de Swagger Editor.
+
+Para esse trabalho foi preferido a utilização da linguagem de programação Java, por preferencia e familiaridade do autor com ela, com o framework de programação Spring. Teve, em poucos detalhes, a apresentação de algumas das ferramentas/utilitários do Spring e com um pouco mais de detalhes a apresentação do SpringFox, que é um utilitário do Spring e possui anotações referente ao OpenAPI. O SpringFox é uma implementação do OpenAPI em Java.
+
+Foi visto também o Maven e a configuração do projeto em Java, com Spring e SpringFox. Após a conclusão do desenvolvimento do projeto foi mostrado toda a estrutura do projeto desenvolvido para esse trabalho. Não foi apresentado os fontes de cada arquivo do projeto, pois não houve a necessidade de destacá-los aqui, mas os mesmo podem ser vistos no repositório do GitHub¹ do autor.
+Não era tema desse trabalho mas teve uma breve explicação da técnica de primeiro o contrato (SPRING-CONTRACT-FIRST, AQUILES e FERREIRA) e a importância de sua utilização.
+
+O envio de datas, que é uma melhoria encontrada na resposta de um dos questionários, foi simplificada nesse projeto, aplicando uma formatação, então a visualização e envio das datas ficou com a mascara 'dd/MM/yyyy HH:mm:ss'(BAELDUNG).
+
+*TRABALHOS FUTUROS*
+Em sugestão à trabalhos futuros, esse trabalho indica a aplicação de seguração na API, esse trabalho sugere a segurança por token, uma vez que a segurança não fez parte desse trabalho, então será detalhado os tipos de segurança que podem ser aplicados na arquitetura REST.
+
+
+*REFERÊNCIAS*
+SILVA, Ruben Blenicio Tavares, CONSTRUÇÃO DE UM SERVIÇO WEB PARA PROMOVER A INTEGRAÇÃO DE FERRAMENTAS DE CRIATIVIDADE. Disponível em: <http://www.repositoriobib.ufc.br/000033/0000336a.pdf>. Acessado em 06/11/2018.
+SPRING-CONTRACT-FIRST, Chapter 3. Writing Contract-First Web Services. Disponível em: <https://docs.spring.io/spring-ws/site/reference/html/tutorial.html>. Acessado em 06/11/2018.
+AQUILES, Alexandre e FERREIRA, Rodrigo, Modelando APIs REST com Swagger.  Disponível em:<http://blog.caelum.com.br/modelando-apis-rest-com-swagger/>. Acessado em 06/11/2018.
+BAELDUNG, Jackson Date. Disponível em: <https://www.baeldung.com/jackson-serialize-dates>. Acessado em 06/11/2018.
+
+
+
+
+spring-boot:run
+
+
+
+"Pessoa":{"email":"wdison@hotmail.com","nome":"Meu Nome","senha":"senha"}

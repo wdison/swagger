@@ -1,0 +1,98 @@
+
+Renavam:	00703261096
+Placa:	CWG2917
+
+Protocolo Detran: 2018-0004550026
+
+
+https://www.caelum.com.br/curso-java-ee-soa-web-services-mensageria
+Sugestão de titulo: "Como identificar a estrutura de serviços REST"
+
+
+http
+spring
+swagger
+openapi
+hibernate validator
+mvc
+
+
+
+https://springfox.github.io/springfox/docs/snapshot/
+
+
+
+
+
+###############		Lendo		##################
+
+
+
+###############		Lidos		##################
+** Projeto para validar IVA(CPF, CNPJ...) com swagger, php, mariadb, rest
+https://repositorio-aberto.up.pt/bitstream/10216/105401/2/200569.pdf
+** Projeto e-commerce com Magento, apresentação de serviço com swagger
+http://monografias.nrc.ice.ufjf.br/tcc-web/downloadPdf?id=252(file:///C:/Users/wdi_s/Downloads/COMPUTAÇÃO MÓVEL COMO FACILITADOR DE APLICAÇÕES WEB.pdf)
+** Editor online: https://editor.swagger.io/. A identação é superimportante para o editor online. Cria a versão servidor para Spring e varios outros frameworks e linguagens
+http://www.timeraposa.com.br/2017/11/documentando-api-com-swagger/
+** Especificação completa de openapi com suas características, padrões e validações. Divisão por "Data Types"(integer, number,...)... Muitos exemplos
+https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md
+** Ferramentas para documentar api rest: WSDL 2.0, WADL, API Blueprint, RAML e Swagger. Resposta para o que é o swagger. Ferramentas swagger: Editor, UI e Codegen. Uma atenção ao format.
+http://blog.caelum.com.br/modelando-apis-rest-com-swagger/
+**Tem um post sobre a economia de apis(https://sensedia.com/blog/negocios-digitais/o-que-sao-apis-parte-3-a-economia-de-apis/). O que é uma estratégia api first. Lembrei que com o swagger da para fazer o contract first. Ler sobre a importancia de documentar aqui(https://sensedia.com/blog/apis/documentar-e-preciso-e-as-ferramentas-estao-ai/). Webinar (https://www.youtube.com/watch?time_continue=38&v=psLrAsdHltQ). Rest é um estilo arquitetural(Webinar). Rest está relacionado a resources.
+https://sensedia.com/blog/apis/como-expor-apis-na-pratica-parte-1/
+**Documentar API usando Apigility. Pode exportar para o formato swagger. Construindo a partir da interface grafica.
+https://imasters.com.br/apis-microsservicos/como-documentar-apis-usando-apigility
+**(https://swagger.io/tools/swagger-editor/) O Swagger está na versão 2 e o openapi na versão 3. Swagger composto de conjunto de ferramentas de design, dev, test e docum. P... em usar como base do trabalho. 
+https://coding4fun.com.br/blog/documentacao-de-rest-api-com-swagger-2-0
+** Essa é a parte 4 e existe as outras 3. Está usando Java, Maven, Spring Boot, Spring Data Rest e Swagger 2(SpringFox)
+http://www.marcelferry.com.br/tutoriais/criando-nosso-primeiro-servico-rest-com-springboot-parte-4/
+** Fala apenas sobre o lancamento da versão 3.0 de openapi. Fala que em versões futuras pode entrar o "Links Object" para hipermidia.
+https://www.infoq.com/br/news/2017/09/open-api-3.0-release
+** Exemplos
+https://www.programcreek.com/java-api-examples/?api=io.swagger.jaxrs.listing.ApiListingResource
+** Apenas o codigo da classe.
+https://github.com/jotorren/microservices-transactions-tcc/blob/master/rahub-cross-cutting-concerns/src/main/java/net/jotorren/microservices/tx/CompositeTransactionParticipantController.java
+**Exemplos de configuração.
+https://www.programcreek.com/java-api-examples/?class=io.swagger.jaxrs.config.BeanConfig&method=setTitle
+** Meta dados de openapi no azure.
+https://docs.microsoft.com/pt-br/azure/azure-functions/functions-api-definition
+**Conceito de cubo para micro serviços. Cima(Y) Decomposição, Direita(X) Dubplicação horizontal e Profundidade(Z) particionamento de uma grande base de dados. Caracteristicas comuns de micro serviços(Descentr, Independ, Poliglota, Black Box...).
+https://medium.com/@cristianosperb/construindo-micro-servi%C3%A7os-na-pr%C3%A1tica-parte-1-9cd8a7ca6ae3
+** Discussão sobre documentar e testar api em asp.net.
+https://pt.stackoverflow.com/questions/228301/documentar-e-testar-m%C3%A9todos-de-uma-asp-net-core-web-api
+** Link de apresentação para HETEOAS, facilita o "object link"(http://www.semeru.com.br/blog/entendendo_hateoas/). Existem inumeros posts de TI no blog. Existem titulos interessantes como primeiro endpoint rest, documentando aplicações rest com springboot e swagger e aplicações restfull hateoas com springboot.
+http://www.semeru.com.br/blog/category/spring-mvc/
+** Laboratorio as a service(LaaS). GoLab: http://www.go-lab-project.eu/deliverables. "A especificac¸ao OpenAPI, originalmente chamada de Swagger, é uma especificação para arquivos de interface legíveis por maquinas para descrever, produzir, consumir e visualizar serviços web RESTful. A OpenAPI é agnóstica em relação à linguagem e possui um motor orientado a template para geração de documentação e esqueleto de clientes e servidores em diferentes linguagens a partir de uma especifição de serviço OpenAPI. As ferramentas são de código aberto e estao disponíveis em: https://github.com/OAI/OpenAPI-Specification". Citação para sistemas inteligentes. Tecnicas de Reuso p51, pdf-P53. NODE RED é uma ferramenta de programação para ligar conectar dispositivos de hardware(https://nodered.org/)
+https://repositorio.ufsc.br/bitstream/handle/123456789/172515/TCC%20Joao%20Paulo.pdf?sequence=1
+**Detalhamento resumido do Swagger(Editor, Build e UI). Instalação das ferramentas Swagger no Docker.
+http://fernandoanselmo.blogspot.com/2017/04/devops-swagger-no-docker.html
+** Dicas para tornar sua arquitetura de microserviçõs prifissional. Definição de 6 dicas de como deixar a api restfull profissional. Feita em NodeJs e da dica de utiliza HATEOAS em Java como facilitador de Hipermídia.
+http://www.luiztools.com.br/post/as-6-melhores-praticas-para-arquiteturas-baseadas-em-microservices/
+** Trabalho muito bem estruturado. Detalhes com citações de Brainstorming e Brainwriting. Citações de SOA e REST perfeitos. GitHub https://github.com/ruben-silva-dev/creative-web-service. GitHub aplicativo mobile Ionic https://github.com/AllefLobo/Elec-Brain/. Dissertação para leitura http://www.pg.utfpr.edu.br/ppgep/dissertacoes/diss_2009/dissertjaque.pdf. Tem um bom trabalho futuro aqui.
+http://www.repositoriobib.ufc.br/000033/0000336a.pdf
+** Netty é um framework para criação de clinetes e servidores de rede, baseado em NIO(I/O não bloqueante). Sem containers pesados tais como JEE(JBoss ou Tomcat). RestExpress é um framework para criação de RESTfull services, que funciona sobre o Netty.
+http://www.obomprogramador.com/2014/11/olha-mamae-sem-container.html
+** Entendendo melhor o conseito de API. Existem muitas descrições de REST, Swagger e Postman.
+http://bluedev.com.br/2017/10/23/conceito-de-apis/
+** AutoRest gerador de código fonte em qualquer linguagem compatível.
+http://fabriciosanchez.azurewebsites.net/3/apresentando-o-conceito-de-auto-rest/
+** ApiDoc é algo mais simples para documentar, ele é feito a partir de comentários da linguagem de programação.
+https://imasters.com.br/apis-microsservicos/gerando-documentacao-de-apis
+
+
+
+ABREVIAÇÔES:
+IDE; 
+
+Ferramentas:
+Java; Netbeans; Spring(Data, MVC, JPA, Boot); SpringFox; Hibernate; Jackson; Swagger; OpenAPI; REST; RESTfull; H2;
+
+Tópicos para abordar no desenvolvimento do trabalho.
+* especificações REST
+* Melhores práticas de implementação de métodos da arquitetura RESTfull.
+* definido que os parâmetros e retornos podem ser opcionais
+* Não era tema desse trabalho mas teve uma breve explicação da técnica de primeiro o contrato (SPRING-CONTRACT-FIRST, AQUILES e FERREIRA) e a importância de sua utilização.
+* então a visualização e envio das datas ficou com a mascara 'dd/MM/yyyy HH:mm:ss'.(Aplicar referencia Jackson).
+
+
