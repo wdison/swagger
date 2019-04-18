@@ -17,9 +17,7 @@ public class SecurityConfig
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http    
-//                .requestMatchers().antMatchers("/user***", "/swagger-ui***", "/v2/***", "/webjars/******", "/").per
-//                .and()
-                
+                .csrf().disable()
                 .authorizeRequests()
                     .antMatchers("/user***", "/swagger-ui***", "/v2/***", 
                             "/webjars/******", "/profile*", "/profile*/**"
