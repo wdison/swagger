@@ -20,10 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WdisonController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-//    @ApiImplicitParams({
-//        @ApiImplicitParam(name = "Authorization", required = true, value = "(Required) Token RBAC (Ex: Bearer sldkfnwlfnwlen23rewoi).",
-//                paramType = "header", dataType = "String")
-//    })
     public String dinheiro() {
         return "Wdison ganhando dinheiro";
     }
